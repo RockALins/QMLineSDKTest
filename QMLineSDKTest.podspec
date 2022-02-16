@@ -4,7 +4,7 @@ Pod::Spec.new do |spec|
 
 
   spec.name         = "QMLineSDKTest"
-  spec.version      = "0.1"
+  spec.version      = "0.2"
   spec.summary      = "QMLineSDKTest is sdk"
 
   spec.homepage     = "https://github.com/RockALins/QMLineSDKTest"
@@ -17,8 +17,8 @@ Pod::Spec.new do |spec|
 
   spec.source       = { :git => "https://github.com/RockALins/QMLineSDKTest.git", :tag => spec.version.to_s }
 
-  
-  spec.vendored_frameworks  = "**/QMLineSDKTest.framework"
+  spec.resource      = 'QMLineBundle.bundle'
+  spec.vendored_frameworks  = "QMLineSDKTest.framework"
   spec.pod_target_xcconfig = {'VALID_ARCHS'=>'armv7 x86_64 arm64'}
 
   spec.requires_arc = true
