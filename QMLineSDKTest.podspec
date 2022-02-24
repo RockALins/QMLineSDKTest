@@ -4,7 +4,7 @@ Pod::Spec.new do |spec|
 
 
   spec.name         = "QMLineSDKTest"
-  spec.version      = "0.2"
+  spec.version      = "0.3"
   spec.summary      = "QMLineSDKTest is sdk"
 
   spec.homepage     = "https://github.com/RockALins/QMLineSDKTest"
